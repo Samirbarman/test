@@ -1,0 +1,284 @@
+.front{
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 25%;
+  background-color:#29053D;
+  /* #305B86; */
+}
+.front_name{
+  position:absolute;
+  margin-top: 7px;
+  left:10px;
+  color: white;
+  font-size: 50px;
+  font-family:French Script MT;
+  font-weight: bold;
+}
+.front_img{
+  position:absolute;
+  top: 75px;
+  left:264px;
+  width: 2%;
+}
+.contact_me{
+  font-family:cursive;
+  font-size:30px;
+  position:absolute;
+  top:80px;
+  left:650px;
+  border:1px solid white;
+  width:15%;
+  padding:10px ;
+  background-color:white;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.8) ;
+  color:#29053D;
+  height:50px;
+  border-radius:20px;
+}
+
+
+.home{
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  width: 10%;
+  cursor: pointer;
+}
+
+.terms{
+  position: absolute;
+  left: 130px;
+  top: 10px;
+  width: 10%;
+  cursor: pointer;
+}
+.about{
+  position: absolute;
+  left: 260px;
+  top: 10px;
+  width: 10%;
+  cursor: pointer;
+}
+
+.about_p{
+  font-size: 20px;
+  font-family:French Script MT;
+  font-weight: bold;
+  position: absolute;
+  left: 260px;
+  color:#29053D;
+  top: 40px;
+  width: 12%;
+  cursor: pointer;
+}
+.contact{
+  position: absolute;
+  left: 375px;
+  top: 10px;
+  width: 10%;
+  cursor: pointer;
+}
+
+.contact_p{
+  font-size: 20px;
+  font-family:French Script MT;
+  font-weight: bold;
+  position: absolute;
+  left: 370px;
+  color:#29053D;
+  top: 40px;
+  width: 15%;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+.how_p{
+  font-size: 20px;
+  font-family:French Script MT;
+  font-weight: bold;
+  position: absolute;
+  left: 430px;
+  color:#29053D;
+  top: 40px;
+  width: 27%;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+.home_p{
+  font-size: 20px;
+  font-family:French Script MT;
+  font-weight: bold;
+  position: absolute;
+  left: 35px;
+  color:#29053D;
+  top: 40px;
+  width: 9%;
+  cursor: pointer;
+}
+
+.terms_p{
+  font-size: 20px;
+  font-family:French Script MT;
+  font-weight: bold;
+  position: absolute;
+  left: 110px;
+  color:#29053D;
+  top: 40px;
+  width: 25%;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+
+.front_2form{
+  z-index: 1;
+  position:fixed;
+  top: 50px;
+  left: 450px;
+  width: 32%;
+  height: 15%;
+  border-radius: 10px;
+  background-color:white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.how_side1{
+  position:absolute;
+  top: 180px;
+  left: 0px;
+  width: 5%;
+  height: 140%;
+  background-color:#29053D;
+  /* border: 1px solid black; */
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+.how_side2{
+  position:absolute;
+  top: 180px;
+  right: 0px;
+  width: 5%;
+  height: 140%;
+  background-color:#29053D;
+  /* border: 1px solid black; */
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+
+
+
+
+
+
+
+.how{
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  width: 4%;
+  /* cursor: pointer; */
+}
+.how_img_p{
+  font-size: 20px;
+  font-family:cursive;
+  font-style: italic;
+  position: absolute;
+  left: 690px;
+  color:#29053D;
+  top: 200px;
+  /* width: 74%; */
+  /* padding: 25px; */
+  /* cursor: pointer; */
+  /* border: 2px solid #29053D; */
+  border-radius: 20px;
+}
+.line{
+  position: absolute;
+  left: 170px;
+  top: 280px;
+  width: 75%;
+  height: 0%;
+  border: 1px solid #29053D;
+  background-color:#29053D;
+}
+.how_p{
+  font-size: 20px;
+  font-family:cursive;
+  font-style: italic;
+  position: absolute;
+  left: 170px;
+  color:#29053D;
+  top: 290px;
+  width: 74%;
+  padding: 25px;
+  /* cursor: pointer; */
+  /* border: 2px solid #29053D; */
+  border-radius: 20px;
+}
+
+
+
+
+
+.all_how{
+  display: none;
+}
+
+
+
+.how_side3{
+  position:absolute;
+  top: 180px;
+  left: 0px;
+  width: 5%;
+  height: 140%;
+  background-color:#29053D;
+  /* border: 1px solid black; */
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+.how_side4{
+  position:absolute;
+  top: 180px;
+  right: 0px;
+  width: 5%;
+  height: 140%;
+  background-color:#29053D;
+  /* border: 1px solid black; */
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+.moveon{
+  position: absolute;
+  top:670px;
+  left: 0px;
+  width: 100%;
+  height: 80%;
+  /* border: 1px solid black; */
+  z-index: 1;
+}
+
+.footer{
+  /* border: 1px solid black; */
+  position: absolute;
+  bottom: -567px;
+  left: 0px;
+  width: 100%;
+  height: 20%;
+  background-color: #29053D;
+}

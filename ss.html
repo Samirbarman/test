@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="dog.png" >
+    <link rel="stylesheet" href="ss.css">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="front">
+      <p class="front_name"><span style="font-family:cursive;font-size:60px;">A.D</span> Railways</p>
+      <img src="train.png" alt="" class="front_img">
+      <span style="font-family:cursive;font-size:30px;position:absolute;top:10px;left:600px;border:none;width:25%;padding-left:10px ;height:40px;color:white" id="give_me"></span>
+      <p  id="contact_me" class="contact_me"  id=" contact_me">91+9990009999</p>
+      <button type="button" name="button" class="l_c" onclick="l_c()">Login or Create Account</button>
+      <div class="front_2form" id="front_2form">
+        <div class="front_2form_1">
+      <img src="home.png" alt="" class="home" title="Home">
+      <p class="home_p">Home</p>
+        </div>
+      <a href="term.html"><div class="front_2form_2">
+      <img src="terms.png" alt="" class="terms" title="Terms">
+      <p class="terms_p">Terms & Condition</p>
+    </div></a>
+      <a href="about.html"><div class="front_2form_3">
+      <img src="about.png" alt="" class="about" title="About us">
+      <p class="about_p">About us</p>
+    </div></a>
+      <div class="front_2form_4" onclick="contact_up()" >
+      <img src="contact.png" alt="" class="contact" title="Contact us">
+      <p class="contact_p">Contact us</p>
+      </div>
+      <a href="how.html"><div class="front_2form_5">
+      <img src="how.png" alt="" class="how" title="Learn How">
+      <p class="how_p">How To Book Tickets</p>
+    </div></a>
+  </div>
+
+      <div class="front_form">
+       <span class="front_form1" id="front_form1" onclick="front_form1()">
+         <img src="checked.png" alt=""  class="front_form1_ch">
+         <p class="front_form1_p">BOOK TRAIN TICKETS</p>
+       </span>
+       <span class="front_form2" id="front_form2" onclick="front_form2()">
+         <img src="unchecked.png" alt=""  class="front_form2_ch">
+         <p class="front_form2_p">BOOK TRAIN TICKETS</p>
+       </span>
+
+       <span class="front_form3" id="front_form3" onclick="front_form3()">
+         <img src="checked.png" alt=""  class="front_form3_ch">
+         <p class="front_form3_p">CHECK PNR STATUS</p>
+       </span>
+       <span class="front_form4" id="front_form4" onclick="front_form4()">
+         <img src="unchecked.png" alt=""  class="front_form4_ch">
+         <p class="front_form4_p">CHECK PNR STATUS</p>
+       </span>
+
+
+       <span class="front_form5" id="front_form5" onclick="front_form5()">
+         <img src="checked.png" alt=""  class="front_form5_ch">
+         <p class="front_form5_p">LIVE TRAIN STATUS</p>
+       </span>
+       <span class="front_form6" id="front_form6" onclick="front_form6()">
+         <img src="unchecked.png" alt=""  class="front_form6_ch">
+         <p class="front_form6_p">LIVE TRAIN STATUS</p>
+       </span>
+
+
+<div class="middle" id="middle">
+
+       <div class="front_form7">
+           <p class="front_form7_fr">FROM  </p>
+<input type="text" class="front_form7_f" list="b6l"  id="country" value="New Delhi">
+<datalist id="b6l" class="front_form7_f_1">
+<option value="New Delhi">
+<option value="Andhra Pradesh">
+<option value="Arunachal Pradesh">
+<option value="Assam">
+<option value="Bihar">
+<option value="Chhattisgarh">
+<option value="Goa">
+<option value="Gujarat">
+<option value="Haryana">
+<option value="Himachal Pradesh">
+<option value="Jharkhand">
+<option value="Karnataka">
+<option value="Kerala">
+<option value="Madhya Pradesh">
+<option value="Maharashtra">
+<option value="Manipur">
+<option value="Meghalaya">
+<option value="Mizoram">
+<option value="Nagaland">
+<option value="Odisha">
+<option value="Punjab">
+<option value="Rajasthan">
+<option value="Sikkim">
+<option value="Tamil Nadu">
+<option value="Telangana">
+<option value="Tripura">
+<option value="Uttar Pradesh">
+<option value="Uttarakhand">
+<option value="West Bengal">
+
+
+</datalist>
+       </div>
+
+       <div class="front_form8">
+         <p class="front_form8_fr">To  </p>
+              <!-- <form action="status.html"> -->
+<input type="text" class="front_form8_f" list="b6l"  id="country2" value="Goa">
+<datalist id="b6l" class="front_form8_f_1">
+<option value="New Delhi">
+<option value="Andhra Pradesh">
+<option value="Arunachal Pradesh">
+<option value="Assam">
+<option value="Bihar">
+<option value="Chhattisgarh">
+<option value="Goa">
+<option value="Gujarat">
+<option value="Haryana">
+<option value="Himachal Pradesh">
+<option value="Jharkhand">
+<option value="Karnataka">
+<option value="Kerala">
+<option value="Madhya Pradesh">
+<option value="Maharashtra">
+<option value="Manipur">
+<option value="Meghalaya">
+<option value="Mizoram">
+<option value="Nagaland">
+<option value="Odisha">
+<option value="Punjab">
+<option value="Rajasthan">
+<option value="Sikkim">
+<option value="Tamil Nadu">
+<option value="Telangana">
+<option value="Tripura">
+<option value="Uttar Pradesh">
+<option value="Uttarakhand">
+<option value="West Bengal">
+
+</datalist>
+<!-- <button type="submit" name="button" onclick="click()">clickaa</button> -->
+<!-- </form> -->
+       </div>
+
+
+       <div class="front_form9">
+         <p class="front_form9_fr">TRAVEL DATE</p>
+       <input type="date" name="" value="" onmouseover="hee()" class="front_form9_f" id="front_form9_f">
+       </div>
+       <div class="front_form10" id="front_form10">
+         <p class="front_form10_fr">Class</p>
+         <select id="b62"  class="front_form10_f">
+         <option value="Sleeper Class">Sleeper Class</option>
+         <option value="Third AC">Third AC</option>
+         <option value="Second AC">Second AC</option>
+         <option value="First AC">First AC</option>
+         <option value="Second Seating">Second Seating</option>
+         <option value="AC Chair Car">AC Chair Car</option>
+         <option value="First Class">First Class</option>
+         <option value="Third AC">Third AC</option>
+         </select>
+       </div>
+       <button type="button" name="button" class="search" onclick="search()">SEARCH</button>
+</div>
+<div class="middle2" id="middle2">
+  <p class="middle2_a">PNR</p>
+  <input type="number" name="" value="" id="pnr_number" class="middle2_b" placeholder="Enter 10 digit PNR">
+   <button type="button" name="button" class="search2" onclick="search2()">CHECK STATUS</button>
+</div>
+
+
+<div class="middle3" id="middle3">
+
+  <div class="middle_3_a">
+      <p class="middle_3_b">TRAIN NUMBER / NAME</p>
+<input type="text" class="middle_3_c" list="b63"  id="country3" value="" placeholder="Enter Train Number/Name">
+<datalist id="b63" class="middle_3_d">
+<option value="New Delhi Express(19856)">
+<option value="Andhra Pradesh Express(19856)">
+<option value="Arunachal Pradesh Express(19856)">
+<option value="Assam Express(19856)">
+<option value="Bihar Express(19856)">
+<option value="Chhattisgarh Express(19856)">
+<option value="Goa Express(19856)">
+<option value="Gujarat Express(19856)">
+<option value="Haryana Express(19856)">
+<option value="Himachal Pradesh Express(19856)">
+<option value="Jharkhand Express(19856)">
+<option value="Karnataka Express(19856)">
+<option value="Kerala Express(19856)">
+<option value="Madhya Pradesh Express(19856)">
+<option value="Maharashtra Express(19856)">
+<option value="Manipur Express(19856)">
+<option value="Meghalaya Express(19856)">
+<option value="Mizoram Express(19856)">
+<option value="Nagaland Express(19856)">
+<option value="Odisha Express(19856)">
+<option value="Punjab Express(19856)">
+<option value="Rajasthan Express(19856)">
+<option value="Uttar Pradesh Express(19856)">
+
+
+
+</datalist>
+  </div>
+
+
+  <div class="middle_3_e">
+    <p class="middle_3_f">YOUR STOP  </p>
+  <input type="text" class="middle_3_g" list="b64"  id="country4" placeholder="Select Station">
+  <datalist id="b64" class="middle_3_h">
+  <option value="New Delhi">
+  <option value="Andhra Pradesh">
+  <option value="Arunachal Pradesh">
+  <option value="Assam">
+  <option value="Bihar">
+  <option value="Chhattisgarh">
+  <option value="Goa">
+  <option value="Gujarat">
+  <option value="Haryana">
+  <option value="Himachal Pradesh">
+  <option value="Jharkhand">
+  <option value="Karnataka">
+  <option value="Kerala">
+  <option value="Madhya Pradesh">
+  <option value="Maharashtra">
+  <option value="Manipur">
+  <option value="Meghalaya">
+  <option value="Mizoram">
+  <option value="Nagaland">
+  <option value="Odisha">
+  <option value="Punjab">
+  <option value="Rajasthan">
+  <option value="Sikkim">
+  <option value="Tamil Nadu">
+  <option value="Telangana">
+  <option value="Tripura">
+  <option value="Uttar Pradesh">
+  <option value="Uttarakhand">
+  <option value="West Bengal">
+
+  </datalist>
+  </div>
+
+  <div class="middle_3_i" id="front_form10">
+    <p class="middle_3_j">TRAIN START DATE</p>
+    <select id="b62"  class="middle_3_k">
+    <option value="Sleeper Class">Day Before Yesterday</option>
+    <option value="Third AC">Yesterday</option>
+    <option value="Second AC">Today</option>
+    <option value="First AC">Tomorrow</option>
+    </select>
+  </div>
+  <button type="button" name="button" class="search3" onclick="search3()">CHECK STATUS</button>
+
+</div>
+
+
+
+      </div>
+    </div>
+    <p style="position:absolute;top:550px;left:200px;color: #29053D;font-size: 20px;font-family:monospace;">If you board the wrong train, it is no use running along the corridor in the other direction.</p>
+<p style="position:absolute;top:660px;left:500px;color: #29053D;font-size: 20px;font-family:monospace;"><b>Locations For Trip In India By Train</b></p>
+<div class="moveon" onmouseover="mouseover()" onmouseout="mouseout()">
+      <div class="trip_1" id="trip_1"  onmouseover="mouseover_ss1()" onmouseout="mouseout_ss1()">
+        <img src="goa.jpg" alt="" class="trip_2">
+      </div>
+      <div class="trip_3" id="trip_3">
+        <p class="trip_4" ><b>Goa</b><br>Goa is popularly known as the Pearl of the orient and tourist paradise. It is located in India’s coastal belt on the western called the Konkan coast. It has an alarming scenic beauty. The architectural work done Goan Temples, Churches and old houses has brought great laurels to Goa. Some of these characteristics make Goa to be occupied by tourists. It is the most preferred option by the people who are planning their holidays.<br><br>Goa as compared to other states is not greatly populated but compared in terms of tourists it is the most populated place in India. Apart from attracting tourists from all over India, it also attracts tourists of foreign background. During the months of November, December and January Goa is heavily crowded. The real essence of Goa lies in its rich history, unique culture and the original natural beauty. Peaceful Goan lifestyle and adventure sports also draw the attention of the travelers within and outside India. All kinds of tourists are expected to visit Goa.</p>
+      </div>
+
+      <div class="trip_5" id="trip_5"  onmouseover="mouseover_ss2()" onmouseout="mouseout_ss2()">
+        <img src="manali.jpg" alt="" class="trip_6" id="trip_6">
+      </div>
+      <div class="trip_7" id="trip_7">
+        <p class="trip_8"><b>Manali</b><br>There are many memorable moments in every man’s life. However, a few of them get indelibly etched in our memories. One of my most memorable moments is associated with a wonderful holiday at Manali. Travelling breaks the monotony of our routine. Thank God, there are so many beautiful places visiting which, we forget all the stresses and cares of our life! I got an opportunity to travel to one such place of extreme natural beauty, where peace and the pristine pastoral charm has not been affected by the modern industrial competition. During the summer vacation, I got the chance to visit Manali and the adjoining spots.<br><br>
+        The very next day I was there playing in the snow. The guide said we won't be allowed on the pass during winter because the roads to Rohtang would be fully covered with snow. I was wondering how cold it would be in winter. For the first time I did some skiing and played a lot with the snow. My sister did paragliding, etc.
+
+</p>
+      </div>
+
+      <div class="trip_9" id="trip_9"  onmouseover="mouseover_ss3()" onmouseout="mouseout_ss3()">
+        <img src="Vaishnodevi.jpg" alt="" class="trip_10">
+      </div>
+      <div class="trip_11" id="trip_11">
+        <p class="trip_12"><b>Vaishno Devi </b><br>Vaishno Devi is one of the very popular religious places of Hindus in North India. And every North Indian Hindu wants to visit it. I also wanted to visit that place from my childhood but could manage time to visit only after many years, after attaining 25 years milestone in my life. In fact it’s not time I should blame — staying near around Delhi for four years I never visited ‘Tajmahal’ and ‘Qutubminar’. I think some time we are lazy and careless enough to not seriously take places and people “near” to us.<br><br>
+
+       During September 2007, I was working in Bangalore for an IT company. One day I received a call from my friend from Delhi that one of our common friends is coming from USA next week and they had a plan to go to ‘Vaishno Devi’. Bell rang in my mind to let me avail such golden opportunity and join them for this long awaited trip — I would not only meet with my friends but also visit Vaishno Devi.<br><br>
+    </p>
+      </div>
+      <div class="trip_13" id="trip_13"  onmouseover="mouseover_ss4()" onmouseout="mouseout_ss4()">
+        <img src="lucknow.jpg" alt="" class="trip_14">
+      </div>
+      <div class="trip_15" id="trip_15">
+        <p class="trip_16"><b>Lucknow</b><br>Lucknow city is popularly known as the 'the city of Nawabs'. Situated on the banks of the river Gomti, it dates back to the time of the Suryavanshi dynasty. Lucknow, the capital of Uttar Pradesh, was founded by Nawab Asaf-ud-Daula. In the olden times, it served as the capital of the nawabs of Awadh and it is one of the reasons why it is also called as the city of the Nawabs. The era of the Nawabs bestowed Lucknow with the courteous culture as well as mouthwatering delicacies for which it is famous today. Travel to Lucknow with us to find more information on this interesting city!<br><br> 
+
+      Even after witnessing tremendous modernization, Lucknow has managed to retain its age-old charm and glory. The warmth, the hospitality and the formality of the city have still not been lost.<br><br>
+    </p>
+      </div>
+
+      <div class="trip_17" id="trip_17"  onmouseover="mouseover_ss5()" onmouseout="mouseout_ss5()">
+        <img src="golden.jpg" alt="" class="trip_18">
+      </div>
+      <div class="trip_19" id="trip_19">
+        <p class="trip_20"><b>Golden Temple</b><br>The Golden Temple, also known as Harmandir Sahib, is the central Gurdwara (worship place) located in Amritsar, Northern Punjab, India. The building is one of the oldest structures in the country, but its architectural design still amazes the current architects. From a far, the building resembles any ordinary temple in the city. However, as one moves closer to the building, he or she realizes the strangeness of the building.<br><br>
+
+        The shape of the temple, materials used in its construction, and the color, show a work done out of skill. It is believed that this building has a strong symbolic function in the country. This is because of the historical factors that are related to it. All Sikhs consider this temple holy. The temple was built purposely to act as a worship center to all people in this land and even visitors, irrespective of their gender, race, age, and religion. The figure below shows the Golden Temple at Amritsar in India.<br><br>
+    </p>
+      </div>
+
+      <div class="trip_21" id="trip_21"  onmouseover="mouseover_ss6()" onmouseout="mouseout_ss6()">
+        <img src="raj.jpg" alt="" class="trip_22">
+      </div>
+      <div class="trip_23" id="trip_23">
+        <p class="trip_24"><b>Rajasthan</b><br>Rajasthan which is also known as the “Land of Maharajas” is the largest state of India, covering an area of about 342,239 sq. km. It comprises of 33 districts and its largest city is Jaipur, which is also its capital. Being located on the western side of the country, it shares its border with Pakistan to its northwest and to the west it shares its border with Sindh. To its north it has Punjab, Uttar Pradesh and Haryana to its northeast; to its southeast it has Madhya Pradesh and Gujarat to its southwest.<br><br>
+
+       The glory of the state is retained by its majestic palaces, forts and monuments. The vibrant culture and rich heritage of this princely state draw innumerable tourists from across the globe.<br><br>
+
+    </p>
+      </div>
+
+
+
+    <div class="footer">
+
+      <p style="position:absolute;top:10px ;color:white;left: 10px;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Follow us:</p>
+      <p style="position:absolute;top:10px;left:300px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Contact us:</p>
+      <p style="position:absolute;top:36px;left:300px;color:white;font-size:18px;">91+ 8761012548</p>
+      <p style="position:absolute;top:70px;left:300px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">E-mail:</p>
+      <p style="position:absolute;top:92px;left:300px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">SS420@gmail.com</p>
+      <p style="position:absolute;top:10px;left:700px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Office-Address:</p>
+      <p style="position:absolute;top:36px;left:700px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Plot no. xyz<br>Law gate,<br>Phagwara, Punjab, India<br>144401</p>
+       <p style="position:absolute;top:10px;left:970px;color:white;font-size:18px;">It is private network<br>Please read all Terms and Conditions before Payment</p>
+        <p style="position:absolute;top:70px;left:970px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Link:</p>
+         <p style="position:absolute;top:92px;left:970px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">www.India_car_rental.com</p>
+      <a href="https://www.gmail.com/mail/help/intl/en/about.html?utm_expid=..."><img src="email.png" alt="" style="position:absolute;width:30px;top:90px;left:10px;"></a>
+      <a href="https://twitter.com/login"><img src="tw.png" alt="" style="position:absolute; top:90px;left:60px;"></a>
+      <a href="https://www.facebook.com/?stype=lo&jlou=AfeolTKa9HuUTwkqgCpmVWGPFrqnMWQXcpo2GotkJZG3wIlYADZfsx2PkizaSkbqvsYRvKSfZpwWPBSumOfXRiaGIEjfpgBQ7xxUjrHSo6FMCQ&smuh=60324&lh=Ac96WsWa6NzQcHVY"><img src="fb.png" alt="" style="position:absolute;width:30px; top:90px;left:100px;"></a>
+      <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="insta.png" alt="" style="position:absolute;width:30px; top:90px;left:140px;"></a>
+    </div>
+</div>
+    <div class="select_data" id="select_data">
+       <div class="login_select_data">
+           <button type="button" name="button" class="create_account"
+           id="create_account" onclick="create_account()">Create Account</button>
+           <button type="button" name="button" class="login" id="login" onclick="login()">Login</button>
+          <div class="me_log" id="me_log">  <input type="number" name="" value="" placeholder="Enter Phone Number" class="login_phone" id="login_phone">
+            <input type="password" name="" value="" placeholder="Enter Password" class="login_password" id="login_password">
+            <div class="hide" onclick="myfunction()"><img src="up_hide.png" alt="" id="hide" style="width:16px;"></div>
+            <div class="eye" onclick="myfunction()"><img src="up_eye.png" alt="" id="eye_open" style="width:16px;"></div>
+
+            <button type="button" name="button" class="sign_in" id="sign_in" onclick="sign_in()">Sign In</button>
+          </div>
+
+
+          <div class="me_cre" id="me_cre">  <input type="number" name="" value="" placeholder="Enter Phone Number" class="cre_phone" id="cre_phone">
+            <input type="text" name="" value="" class="cre_name" id="cre_name" placeholder="Enter You Name">
+            <input type="password" name="" value="" placeholder="Enter Password" class="cre_password" id="cre_password">
+            <div class="hide1" onclick="myfunction1()"><img src="up_hide.png" alt="" id="hide1" style="width:16px;"></div>
+            <div class="eye1" onclick="myfunction1()"><img src="up_eye.png" alt="" id="eye_open1" style="width:16px;"></div>
+            <button type="button" name="button" class="sign_up" id="sign_up" onclick="sign_up()">Sign Up</button>
+          </div>
+       </div>
+    </div>
+
+         <div class="train_status" id="train_status">
+           <p style="position:absolute;margin-top:0px;left:650px;font-size: 30px;
+           font-family:cursive;font-weight: bold;color:#29053D;">Train Available</p>
+           <p style="position:absolute;top:0px;left:50px;font-size: 30px;
+           font-family:cursive;font-weight: bold;color:#29053D;">On</p>
+           <p id="date" style="position:absolute;top:0px;left:250px;font-size: 30px;
+           font-family:cursive;font-weight: bold;color:#29053D;"></p>
+           <p style="position:absolute;top:80px;left:10px;font-size: 30px;
+           font-family:cursive;font-weight: bold;color:#29053D;">MC Express:</p>
+           <div class="box1" id="box1"></div>
+           <hr style="position:absolute;top:115px;left:630px;width:100px;font-size: 30px;
+           font-family:cursive;font-weight: bold;color:#29053D;border:2px dashed #29053D;">
+           <img src="track.png" alt="" style="position:absolute;top:100px;left:740px;">
+           <hr style="position:absolute;top:115px;left:795px;width:90px;font-size: 30px;
+           font-family:cursive;font-weight: bold;color:#29053D;border:2px dashed #29053D;">
+           <span class="box2" id="box2"></span>
+
+
+         <p style="position:absolute;top:175px;left:10px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;">BC Express:</p>
+         <div class="box3" id="box3"></div>
+         <hr style="position:absolute;top:215px;left:630px;width:100px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;border:2px dashed #29053D;">
+         <img src="track.png" alt="" style="position:absolute;top:200px;left:740px;">
+         <hr style="position:absolute;top:215px;left:795px;width:90px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;border:2px dashed #29053D;">
+         <div class="box4" id="box4"></div>
+
+         <p style="position:absolute;top:280px;left:10px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;">KLPD Express:</p>
+         <div class="box5" id="box5"></div>
+         <hr style="position:absolute;top:315px;left:630px;width:100px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;border:2px dashed #29053D;">
+         <img src="track.png" alt="" style="position:absolute;top:300px;left:740px;">
+         <hr style="position:absolute;top:315px;left:795px;width:90px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;border:2px dashed #29053D;">
+         <div class="box6" id="box6"></div>
+            <img src="cancel.png" alt="" style="position:absolute;top:10px;left:1400px;width:3%;" onclick="cancel()">
+          <button type="button" name="button" class="book1" onclick="boo1()">Book Ticket</button>
+          <button type="button" name="button" class="book2" onclick="boo1()">Book Ticket</button>
+          <button type="button" name="button" class="book3" onclick="boo1()">Book Ticket</button>
+
+</div>
+
+
+        <div class="pay" id="pay">
+          <p style="position:absolute;margin-top:0px;left:650px;font-size: 30px;
+          font-family:cursive;font-weight: bold;color:#29053D;">Booking</p>
+          <input type="text" name="" value="" class="pay_name" placeholder="Enter your name" id="pay_name">
+          <input type="text" name="" value="" class="pay_fathername" placeholder="Enter your fathername" id="pay_fathername">
+          <input type="number" name="" value="" class="pay_number" id="pay_number" placeholder="Enter number of Ticket">
+          <p style="position:absolute;top:200px;left:200px;font-size: 20px;
+          font-family:cursive;color:#29053D;">Date:</p>
+          <p style="position:absolute;top:200px;left:260px;font-size: 20px;
+          font-family:cursive;color:#29053D;" id="pay_date"></p>
+          <button type="button" name="button" class="pay_me" onclick="go_with_me()">Pay</button>
+       </div>
+       <div class="pp" id="pp">
+         <p style="position:absolute;margin-top:0px;left:650px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;">Pay</p>
+         <p style="position:absolute;top:0px;left:650px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;" id="amount"></p>
+         <input type="number" name="" value="" class="pp_acc"  id="pp_acc" placeholder="Enter Account number">
+         <input type="number" name="" value="" class="pp_cvv" id="pp_cvv" placeholder="Enter CVV number">
+         <input type="number" name="" value="" class="pp_date" id="pp_date" placeholder="Enter Expire Date">
+         <button type="button" name="button" class="pp_otp" onclick="otp()">Send OTP</button>
+         <input type="number" style="position:absolute;top:10px;left:1250px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:white;border:none;width:150px" id="copy_pay">
+       </div>
+
+       <div class="p_otp_m" id="p_otp">
+         <input type="number" name="" value="" class="p_otp"  id="p_otp_v" placeholder="Enter OTP">
+         <input type="button" name="" value="Verify" class="p_b"  id="p_b" onclick="p_b()" >
+       </div>
+       <div class="pnr" id="pnr">
+         <div class="pnr1" id="pnr1">
+           <img src="speed.png" alt="">
+         </div>
+         <div class="pnr2" id="pnr2">
+           <img src="stop.png" alt="">
+         </div>
+         <div class="pnr3" id="pnr3">
+           <img src="stop.png" alt="">
+         </div>
+         <div class="pnr4" id="pnr4">
+           <img src="stop.png"  alt="">
+         </div>
+         <div class="pnr5" id="pnr5">
+           <img src="railroad.png" style="width:38px" alt="">
+         </div>
+         <div class="pnr6" id="pnr6">
+           <img src="railway.png" alt="">
+         </div>
+         <p style="position:absolute;margin-top:0px;left:50px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;" id="live_s"></p>
+         <p style="position:absolute;margin-top:0px;left:950px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;" id="live_e"></p>
+         <p style="position:absolute;margin-top:0px;left:550px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;">Live Location of Train</p>
+         <img src="cancel.png" alt="" style="position:absolute;top:10px;left:1400px;width:3%;" onclick="cancel_pnr()">
+         <hr style="position:absolute;top:300px;left:60px;width:1350px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;border:2px dashed #29053D;">
+       </div>
+
+       <div class="notlive" id="notlive">
+         <p style="position:absolute;margin-top:0px;left:50px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;" >Name</p>
+         <p style="position:absolute;top:5px;left:50px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;" id="notlive_name"></p>
+         <img src="cancel.png" alt="" style="position:absolute;top:10px;left:1400px;width:3%;" onclick="cancel_notlive()">
+         <span style="position:absolute;margin-top:0px;left:300px;border:1px solid #29053D;width:0px;height:300px;"></span>
+         <p style="position:absolute;margin-top:0px;left:350px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;" >Fathername</p>
+         <p style="position:absolute;top:5px;left:350px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;" id="notlive_fathername"></p>
+
+         <span style="position:absolute;margin-top:0px;left:600px;border:1px solid #29053D;width:0px;height:300px;"></span>
+         <p style="position:absolute;margin-top:0px;left:650px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;" >Number of passenger</p>
+         <p style="position:absolute;top:5px;left:650px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;" id="notlive_pass"></p>
+         <span style="position:absolute;margin-top:0px;left:1000px;border:1px solid #29053D;width:0px;height:300px;"></span>
+         <p style="position:absolute;margin-top:0px;left:1050px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;" >Amount paid</p>
+         <p style="position:absolute;top:5px;left:1050px;font-size: 30px;
+         font-family:cursive;font-weight: bold;color:#29053D;" id="notlive_paid"></p>
+       </div>
+
+
+
+       <img src="tr.png" alt="" style="position:absolute;top:1550px;left:700px;">
+       <p style="position:absolute;top:1620px;left:620px;font-size: 30px;
+       font-family:monospace;font-style: italic;color:#554F58;"><u>Original of A.D</u></p>
+       <p style="position:absolute;top:1650px;left:50px;font-size: 30px;
+       font-family:cursive;font-weight: bold;color:#29053D;">
+       It has been tough when I have been with the national team and we have gone to play in some of the poorer areas in Brazil. You see people come and watch us train or play a match, and then you know some of them are going home with no food on the plate.
+       </p>
+
+
+
+    <script src="ss.js">
+
+    </script>
+  </body>
+</html>
